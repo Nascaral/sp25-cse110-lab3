@@ -1,0 +1,16 @@
+body{
+  backfround-color: #fafafa;
+
+}
+h1{
+  color: rgb(0, 123, 255);
+}
+
+h2{
+  color: hsl(300,50%,50%);
+}
+
+p{color:orange;}
+footer{
+  color:color-mix(in srgb, red 60%, blue);
+}
