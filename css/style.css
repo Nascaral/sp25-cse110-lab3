@@ -4,6 +4,9 @@ body{
 }
 h1{
   color: rgb(0, 123, 255);
+  text-align: center;
+  text-decoration: underline;
+  color: darkblue;
 }
 
 h2{
