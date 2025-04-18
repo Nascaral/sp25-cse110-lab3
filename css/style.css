@@ -14,3 +14,13 @@ p{color:orange;}
 footer{
   color:color-mix(in srgb, red 60%, blue);
 }
+
+:root{
+  --main-bg: #ffeedd;
+  --text-color: black;
+}
+
+body{
+  background-color: var(--main-bg, white);
+  color: var(--text-color, gray);
+}
