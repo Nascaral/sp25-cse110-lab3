@@ -90,3 +90,15 @@ div{
   width: 100px;
   text-align: center;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+.grid-container > div {
+  background-color: #ccc;
+  padding: 20px;
+  width: 100px;
+}
