@@ -61,3 +61,19 @@ div{
 .hidden {
   display: none;
 }
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.cta-button:active {
+  transform: scale(0.95);
+}
