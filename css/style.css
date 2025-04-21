@@ -117,3 +117,40 @@ div{
     grid-template-columns: 1fr;
   }
 }
+/* Class selector */
+.alert { color: red; }
+
+/* ID selector */
+#main-title { font-size: 2rem; }
+
+/* Universal selector */
+* { box-sizing: border-box; }
+
+/* Element selector */
+h2 { margin-top: 20px; }
+
+/* Attribute selector */
+input[type="text"] { border: 1px solid gray; }
+
+/* Pseudo-class selector */
+a:hover { text-decoration: underline; }
+
+/* Selector list */
+h1, h2 { font-weight: bold; }
+
+/* Combinators */
+.container p { font-size: 16px; }          /* descendant */
+ul > li { list-style: square; }            /* child */
+h2 ~ p { color: green; }                   /* general sibling */
+h2 + p { font-style: italic; }             /* adjacent sibling */
+
+/* Combined selector */
+button.primary { background: teal; }
+
+/* :has() selector */
+section:has(.cta-button) { border: 2px dashed red; }
+
+/* Nested selector simulation */
+nav ul {
+  display: flex;
+}
