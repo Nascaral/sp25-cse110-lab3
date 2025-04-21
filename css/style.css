@@ -77,3 +77,16 @@ div{
 .cta-button:active {
   transform: scale(0.95);
 }
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.flex-container > div {
+  background-color: #eee;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+}
