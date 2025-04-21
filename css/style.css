@@ -26,6 +26,7 @@ footer{
 body{
   background-color: var(--main-bg, white);
   color: var(--text-color, gray);
+  font-family: 'Roboto', sans-serif;
 }
 
 div{
